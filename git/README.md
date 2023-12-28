@@ -33,7 +33,7 @@ Git was originally authored by Linus Torvalds in 2005.
 
 - It is the component of .git
 - It is a staging area.
-- It is a layer that seperates your working tree from git repository.
+- It is a layer that separates your working tree from git repository.
 
 *Commit*
 
