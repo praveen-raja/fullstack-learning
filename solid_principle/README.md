@@ -54,7 +54,23 @@ name is suggesting to do so.
 ### 3. Liskov's Substitution Principle (LSP)
 
 - Objects of any child classes should be able to substituted/stored in a variable of a parent class without requiring a change in further code.
-
+- No child class should deserve any special treatments.
 ```java
 Bird bird = new Pigeon();
+Bird bird = new Crow();
+Bird bird = new Penquin();
+Bird bird = new Sparrow();
 ```
+
+### 4. Interface Segregation Principle (ISP)
+
+- Interface should be as light as possible.
+- Don't have a generalized interface.
+- Make interface as specific as possible.
+- Have very less number of methods(ideally 1 methods in interface).
+- Interface having 1 method is called as ```Functional Interface```
+
+### 5. Dependency Inversion Principle (DIP)
+
+- No 2 concrete classes should be directly depend on each other.
+- They should depend on each via an interface in between.
