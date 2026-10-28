@@ -1,0 +1,19 @@
+# Compiled output
+*.class
+bin/*
+/bin/
+out/
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/*
+*.iml
+
+# OS / misc
+.metadata/**
+.DS_Store
