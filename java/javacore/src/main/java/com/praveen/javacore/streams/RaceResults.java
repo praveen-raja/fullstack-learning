@@ -16,13 +16,14 @@ import java.util.stream.Collectors;
 public class RaceResults {
     public static void main(String[] args) {
         // Race times in seconds
-        List<Integer> times = Arrays.asList(55, 48, 62, 51, 53, 59);
+        List<Integer> times = Arrays.asList(55, 48, 62, 51, 53, 59,60);
 
         // TODO: Get only the 2nd and 3rd fastest times
         // Expected Output: [51, 53]
         
         List<Integer> output = times.stream()
-        							.sorted(Comparator.naturalOrder())
+        							.sorted(Comparator.reverseOrder())
+        							.peek(s -> System.out.println(s.toString()))
         							.limit(3)
         							.skip(1)
         							.collect(Collectors.toList());

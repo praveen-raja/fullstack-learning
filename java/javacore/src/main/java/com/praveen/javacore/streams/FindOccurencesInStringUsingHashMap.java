@@ -30,7 +30,7 @@ import java.util.stream.Collectors;
  *  Both : Time O(N), Space O(distinct chars)
  * ============================================================================
  */
-public class FindOccurencesInTringUsingHashMap {
+public class FindOccurencesInStringUsingHashMap {
 	public static void main2(String[] args) {
 		String name = "praveenkumar";
 		
